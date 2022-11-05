@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+
+    border: 4px solid lightgray;
+
+
+}
+
+.row{
+
+    width: 100%;
+    max-width: 600px;
+    margin: 24px auto;
+}
+
+.titlewrap{
+    margin: 24px auto;
+
+
+}
+
+.title{
+    border: 4px solid lightgray;
+    height: 50px;
+
+
+
+}
+
+.boxwrap{
+    
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+.box{
+    border: 4px solid lightgray;
+    height: 100px;
+    width: calc(30%);
+    margin: 16px 0px 16px 0px;
+    
+}
